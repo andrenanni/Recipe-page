@@ -23,7 +23,6 @@ main{
 
 .content{
     width: 740px;
-    height: 1000px;
     border-radius: 25px;
     padding: 40px;
     background-color: white;
@@ -34,7 +33,7 @@ main{
     border-radius: 15px;
 }
 
-.title{
+.title_01{
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -53,15 +52,16 @@ main{
     line-height: 25px;
 }
 
-.content-box{
+.preparation-box{
     width: 100%;
     margin-top: 30px;
     padding: 25px;
     border-radius: 15px;
+    margin-bottom: 30px;
     background-color: hsl(330, 100%, 98%);
 }
 
-.text_02{
+.title_02{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -79,14 +79,70 @@ li{
     font-weight: 600;
 }
 
-.ul-style{
+.ul-style_01{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 13pt;
     line-height: 25pt;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-top: 10px;
     color: hsl(30, 10%, 34%);
+}
+
+.title_03{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21pt;
+    color: hsl(14, 45%, 36%);
+}
+
+.ul-style_02{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: 35px;
+    padding: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    border: solid 0.5px hsl(30, 10%, 85%);
+    margin-bottom: 20px;
+}
+
+.ol-style_03{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt; 
+    color: hsl(30, 10%, 34%); 
+    padding: 20px;
+    line-height: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+td{
+    border-bottom: 1px solid black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt; 
+    padding: 15px;
+    color: hsl(30, 10%, 34%); 
+}
+
+.number-table{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
